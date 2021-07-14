@@ -1,0 +1,153 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 64px;
+}
+
+
+.head-container {
+    background-color:#2D25A0;;
+    height: 800px;
+    width: 100%;
+}
+
+.head-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 102px;
+}
+
+.head-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 180px;
+    padding-left: 200px;
+}
+
+.head-item img {
+    width: 650px;
+    height: 550px;
+    position: absolute;
+    padding-top: 100px;
+}
+
+.head-item img.scnd:hover {
+    transform: rotate(90deg);
+    transform-origin: 30% 75%;
+    transition: width 1s, height 1s, transform 1s ease-in-out;
+}
+
+.head-container h1 {
+    margin: 0px;
+    color: white;
+    font-size: 30px;
+    font-weight: 20px;
+}
+
+.header-title {
+    font-size: 60px;
+    font-weight: 50px;
+    padding-top: 50px;
+}
+
+.explore-us-btn {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    height: 30px;
+    width: 150px;
+}
+
+
+
+.player-container {
+    padding-top: 70px;
+    padding: 70px 300px;
+}
+
+
+.players {
+    background-color: white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 47px;
+}
+
+.player {
+    background-color: rgba(241, 217, 217, 0.315);
+    box-shadow: 0 8px 10px 0 rgba(221, 209, 209, 0.5);
+    width: 370px;
+    height: 474px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.player img {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+.flexible-container{
+    display:flex;
+    
+        padding-top: 70px;
+        padding: 70px 300px;
+    
+    }
+    .half-width{
+        width:50%;
+        padding-left:2%;
+    }
+    .half-width img{
+        width:100%;
+    }
+    .link-button{
+          text-decoration: none;
+            background-color: #E02C6D;
+            padding: 10px;
+            color: white;
+            font-weight: 500;
+            height: 30px;
+            width: 150px;
+        }
+    }
+    .top-banner{
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+    }
+
+    ._footer {
+        text-align: center;
+        background-color:black;
+        height: 100px;
+        color: white;
+        font-family: 'Teko', sans-serif;
+        font-size: 20px;
+        padding: 50px;
+    }
+    
+    ._footer a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    
